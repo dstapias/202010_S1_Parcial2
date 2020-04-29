@@ -1,0 +1,29 @@
+<div class = "container">
+  <div class = "row" *ngFor= "let s of series">
+    <div class = "col-1" >
+      <h2 class = "id">
+        {{s.id}}
+      </h2>
+    </div>
+      <div class = "col-1" *ngFor = "let s of series">
+        <h2 class = "name">
+          {{s.name}}
+        </h2>
+    </div>
+    <div class = "col-1" *ngFor = "let s of series">
+      <h2 class = "channel">
+        {{s.channel}}
+      </h2>
+    </div>
+    <div class = "col-1" *ngFor = "let s of series">
+      <h2 class = "id">
+        {{s.id}}
+      </h2>
+
+      <div class = "row">
+        <h2>
+          Promedio de Temporada:
+        </h2>
+      </div>
+  </div>
+</div>
